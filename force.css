@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900');
+
+body {
+  background: #222222;
+}
+circle.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+line.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+#chart {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+#navbar{
+  overflow: hidden;
+  border-left: white solid 1px;
+  position: fixed;
+  right: 0;
+  width: 8%;
+  height: 100%;
+  z-index: 1;
+}
+
+#set-options{
+  overflow: hidden;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.checkbox-text{
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 0.8em;
+}
+
+.checkbox{
+  margin-left: 45%;
+  background-color: none;
+  color: white;
+}
+
+#filters{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+

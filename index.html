@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <title>Force-Directed Layout</title>
+    <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+    <link type = "text/css" rel = "stylesheet" href = "force.css"/>
+    
+  </head>
+  <body>
+    <div id = "navbar">
+      <form id = "options">
+        <p class = "checkbox-text">
+          Road Classes
+        </p>
+        <input type = "checkbox" id = "width" class = "checkbox"/>
+
+        <p class = "checkbox-text">
+            Degree
+        </p>
+          <input type = "checkbox" id = "degree" class = "checkbox"/>
+
+        <p class = "checkbox-text">
+            Road Types
+        </p>
+          <input type = "checkbox" id = "line-style" class = "checkbox"/>
+
+          <p class = "checkbox-text">
+              Nodes
+          </p>
+            <input type = "checkbox" id = "nodes" class = "checkbox"/>
+
+          <p class = "checkbox-text" id = "filters">
+            Filters
+          </p>
+          <p class = "checkbox-text" id = "oneway_text">
+            Oneways
+          </p>
+          <input type = "checkbox" id = "one-way" class = "checkbox" checked/>
+
+          <p class = "checkbox-text" id = "standard_text">
+            Standard
+          </p>
+          <input type = "checkbox" id = "standard" class = "checkbox" checked/>
+
+          <p class = "checkbox-text" id = "primary_text">
+            Primary
+          </p>
+          <input type = "checkbox" id = "primary" class = "checkbox" checked/>
+
+          <p class = "checkbox-text" id = "secondary_text">
+            Secondary
+          </p>
+          <input type = "checkbox" id = "secondary" class = "checkbox" checked/>
+
+          <p class = "checkbox-text" id = "tertiary_text">
+            Tertiary
+          </p>
+          <input type = "checkbox" id = "tertiary" class = "checkbox" checked/>
+
+        </form>
+    </div>
+    <div id = "set-selection">
+      <form id = "set-options">
+        <select id = "set-value">
+          <option value = "Houston">Houston</option>
+          <option value = "Chengdu">Chengdu</option>
+          <option value = "Delhi">Delhi</option>
+        </select>
+      </form>
+    </div>
+    <div id = "chart"></div>
+    <script type="text/javascript" src="force_new.js"></script>
+  </body>
+</html>
