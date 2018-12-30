@@ -3,7 +3,7 @@ Final project for COSC6344 - Visualization. Using D3's force-directed layout to 
 
 * Datasets taken from UIC's CSUN lab [[link]](https://csun.uic.edu/datasets.html)  [[download]](https://figshare.com/articles/Urban_Road_Network_Data/2061897)
 
-* Dataset cleaning, preprocessing and slicing done in Python using fiona and networkx.
+* Dataset cleaning, preprocessing and slicing done in Python using fiona and networkx. Script on Github [[link]](https://github.com/aadithpm/edges-to-json)
 
 * The datasets used were CSV files generated from shapefiles by CSUN's GISF2E tool [[link]](https://github.com/csunlab/GISF2E/tree/master/Python/v1.20)
 
